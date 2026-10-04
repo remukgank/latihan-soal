@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Latihan Ujian Kelas 2"
+description = "Aplikasi latihan soal kelas 2 untuk Pendidikan Agama Islam dan PJOK, dengan 25 soal pilihan ganda dan 10 isian per mata pelajaran serta pemeriksaan hasil setelah semua jawaban terisi."
+version = "1.0.0"
+id = "artifacts/latihan-kelas-2"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25633
+
+[services.development]
+run = "pnpm --filter @workspace/latihan-kelas-2 run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/latihan-kelas-2", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/latihan-kelas-2/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25633"
+BASE_PATH = "/"
