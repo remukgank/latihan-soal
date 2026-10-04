@@ -21,7 +21,7 @@ const subjectInfo = {
   pai: {
     name: 'Pendidikan Agama Islam',
     shortName: 'PAI',
-    description: 'Belajar tentang ibadah, akhlak baik, dan kisah para nabi.',
+    description: 'Belajar Surah an-Nās, mengenal Allah, dan berperilaku terpuji.',
     color: 'pai',
   },
   pjok: {

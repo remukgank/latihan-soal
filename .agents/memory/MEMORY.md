@@ -1,0 +1,1 @@
+- [PAI class-2 syllabus](pai-class-2-syllabus.md) — align the PAI quiz with the user's textbook table of contents.
