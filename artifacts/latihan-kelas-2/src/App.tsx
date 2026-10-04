@@ -21,13 +21,13 @@ const subjectInfo = {
   pai: {
     name: 'Pendidikan Agama Islam',
     shortName: 'PAI',
-    description: 'Belajar Surah an-Nās, mengenal Allah, dan berperilaku terpuji.',
+    description: 'Mengenal Surah pendek, Asmaul Husna, sabar, ikhlas, dan salat fardu.',
     color: 'pai',
   },
   pjok: {
     name: 'Pendidikan Jasmani, Olahraga, dan Kesehatan',
     shortName: 'PJOK',
-    description: 'Berlatih gerak, permainan, hidup sehat, dan menjaga keselamatan.',
+    description: 'Berlatih kombinasi gerak, mengontrol objek, gerak berirama, dan kerja sama.',
     color: 'pjok',
   },
 } satisfies Record<SubjectId, { name: string; shortName: string; description: string; color: string }>;
@@ -103,7 +103,7 @@ function Home() {
             <section className="intro" aria-labelledby="welcome-title">
               <div>
                 <div className="eyebrow"><Sparkles size={14} /> Belajar pelan-pelan, pasti bisa</div>
-                <h1 id="welcome-title">Siap berlatih<br /><span>hari ini?</span></h1>
+                <h1 id="welcome-title">Siap latihan<br /><span>tengah semester?</span></h1>
                 <p>Pilih pelajaran yang ingin kamu coba. Jawab dengan santai, lalu kita lihat hasilnya bersama.</p>
               </div>
               <div className="hero-art" aria-hidden="true">

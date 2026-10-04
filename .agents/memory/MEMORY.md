@@ -1,1 +1,2 @@
-- [PAI class-2 syllabus](pai-class-2-syllabus.md) — align the PAI quiz with the user's textbook table of contents.
+- [PAI class-2 syllabus](pai-class-2-syllabus.md) — follow the midterm scope in the user's PAI textbook.
+- [PJOK class-2 syllabus](pjok-class-2-syllabus.md) — follow the midterm scope in the user's PJOK textbook.
